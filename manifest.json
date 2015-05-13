@@ -2,7 +2,7 @@
   "name": "Redmine",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Redmine图片预览插件",
+  "description": "Redmine gallary",
   "browser_action": {
     "default_icon": "redmine.png",
 	"default_popup":"gallary.html"
@@ -13,8 +13,8 @@
   "content_scripts": [
     {
       "matches": ["http://115.236.55.20:8996/*"],
-      "css": ["css/bootstrap.min.css","css/bootstrap-responsive.min.css"],
-      "js": ["js/jquery.min.js","js/bootstrap.min.js","js/gallary.js"]
+      "css": ["css/bootstrap.min.css"],
+      "js": ["js/jquery.min.js","js/gallary.js"]
     }
   ]
 }
